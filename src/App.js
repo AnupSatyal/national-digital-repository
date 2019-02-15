@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import './styles/upload-thesis.css';
 import { Provider } from "react-redux";
 import store from "./store/store";
 import { BrowserRouter as Router, Route } from "react-router-dom";
