@@ -30,17 +30,38 @@ class UploadInfo extends Component {
         <h2>Documents Upload</h2>
 
         <div className="form-actions side-by-side">
-          <input type="file" multiple />
+        <div className="input-container">
+        <input type="file" id="real-input" />
+        <button className="browse-btn">
+        SELECT YOUR THESIS
+        </button>
+        <span className="file-info">Upload a file</span>
+         </div>
           <button className="btn btn-warning"> Remove</button>
         </div>
+
         <div className="form-actions side-by-side">
-          <input type="file" multiple />
+        <div className="input-container">
+        <input type="file" id="real-input" />
+        <button className="browse-btn">
+        SUPPLEMENTARY DOCUMENTS
+        </button>
+        <span className="file-info">Upload a file</span>
+         </div>
           <button className="btn btn-warning"> Remove</button>
         </div>
+
         <div className="form-actions side-by-side">
-          <input type="file" multiple />
+        <div className="input-container">
+        <input type="file" id="real-input" />
+        <button className="browse-btn">
+        FIELD PHOTOGRAPHS
+        </button>
+        <span className="file-info">Upload a file</span>
+         </div>
           <button className="btn btn-warning"> Remove</button>
         </div>
+
 
         <div>
           <input type="checkbox" name="agreement" />
